@@ -178,30 +178,150 @@ mark {
 
 @media (max-width: 480px) {
     .titulo-front, .titulo-back, .titulo-full {
+        font-size: 17px;
+    }
+
+    .conteudo-front h1 {
+        font-size: 20px;
+    }
+
+    .conteudo-back h1 {
+        font-size: 20px;
+    }
+
+    .conteudo-full h1 {
+        font-size: 20px;
+    }
+
+    .conteudo-front p {
+        font-size: 14px;
+    }
+
+    .conteudo-back p {
+        font-size: 14px;
+    }
+
+    .conteudo-full p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .titulo-front, .titulo-back, .titulo-full {
         font-size: 20px;
     }
 
     .conteudo-front h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .conteudo-back h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .conteudo-full h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .conteudo-front p {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .conteudo-back p {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .conteudo-full p {
-        font-size: 17px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .titulo-front, .titulo-back, .titulo-full {
+        font-size: 20px;
+    }
+
+    .conteudo-front h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-back h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-full h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-front p {
+        font-size: 30px;
+    }
+
+    .conteudo-back p {
+        font-size: 30px;
+    }
+
+    .conteudo-full p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    .titulo-front, .titulo-back, .titulo-full {
+        font-size: 20px;
+    }
+
+    .conteudo-front h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-back h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-full h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-front p {
+        font-size: 30px;
+    }
+
+    .conteudo-back p {
+        font-size: 30px;
+    }
+
+    .conteudo-full p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .titulo-front, .titulo-back, .titulo-full {
+        font-size: 20px;
+    }
+
+    .conteudo-front h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-back h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-full h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-front p {
+        font-size: 30px;
+    }
+
+    .conteudo-back p {
+        font-size: 30px;
+    }
+
+    .conteudo-full p {
+        font-size: 30px;
     }
 }
